@@ -1,0 +1,263 @@
+<html>
+    <head>
+        <title>Restaurant Cheetah Style Guide</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="subtle-background">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-2" style="position: fixed;">
+                    <img class="mt-4 mb-4" style="width: 100px; height: 100px; border-radius: 20px; overflow: hidden;" src="images/rc-logo.png" />
+                    <ul class="list-unstyled navigation">
+                        <li>Login</li>
+                        <li>Order Guide - Variations of List Items</li>
+                        <li>Order Guide - Quick Add</li>
+                        <li>Order Guide - Sorting</li>
+                        <li>Order Guide - States</li>
+                        <li>Product Page - Various States</li>
+                        <li>Product Page - Keyboard Quantity</li>
+                        <li>Product Page - Image Viewing</li>
+                        <li>Product Page - Add/Remove from Order Guide</li>
+                        <li>Search</li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                </div>
+                <div class="col-10 pt-4 pb-5">
+
+                    <h3 class="subtle-header">Still to do...</h3>
+                    <ul class="mb-5">
+                        <li>Utility Pages (Settings, Pricing...)</li>
+                        <li>Checkout, Cart, Confirmation</li>
+                        <li>Expanded Navigation</li>
+                        <li>Browse</li>
+                    </ul>
+
+                    <h3 class="subtle-header">Login</h3>
+                    <div class="row">
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Login.png" />
+                            <p>When the user taps on the sign-in view, the login window appears.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Login with Numbers.png" />
+                            <p>State when the phone number is added.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Login with Password Blank.png" />
+                            <p>Password entry, with placeholder when no string has been entered.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Login with Password Filled.png" />
+                            <p>State when the user has entered some inputs.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Login with Temporary Password.png" />
+                            <p>System popup when the user requests a temporary password.</p>
+                        </div>
+                    </div>
+
+                    <h3 class="subtle-header">Order Guide - Variations of List Items</h3>
+                    <div class="row">
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Order Guide Variations - 1.png" />
+                            <p>Short product name with only one available product size.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Order Guide Variations - 2.png" />
+                            <p>Short product name with multiple product sizes.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Order Guide Variations - 3.png" />
+                            <p>Long product name with multiple product sizes.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Order Guide Variations - Added - 1.png" />
+                            <p>When a product has quantities added to cart, the box on the right will show the quantity and subtotal</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Order Guide Variations - Added - 2.png" />
+                            <p>Even if there are multiple product sizes, when a user adds products to their cart only the selected size should show up on the left side.</p>
+                        </div>
+                    </div>
+
+                    <h3 class="subtle-header">Order Guide - Quick Add</h3>
+                    <div class="row">
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Popup - Start Process Button.png" />
+                            <p>Users can quickly add products to their order guide by tapping on the rounded box on the right side of each line.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Popup - Add to Cart - One Price.png" />
+                            <p>Popup with one unit type.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Popup - Add to Cart - Two Unit Types.png" />
+                            <p>Popup with two unit types.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Popup - Add to Cart - Three Unit Types.png" />
+                            <p>Popup with three unit types.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Popup - Add to Cart - Multiple Price Tiers.png" />
+                            <p>Tiered pricing information</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Popup - Close.png" />
+                            <p>Tapping outside the view should close the window, cancelling any changes.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Popup - Tap Product Name.png" />
+                            <p>Tapping the product name/area should lead the user to the product page.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Popup - Add to Cart - Tapping Quantity.png" />
+                            <p>Tapping the quantity should load the keyboard.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Popup - Add to Cart - Keyboard Open.png" />
+                            <p>Numeric keyboard used for manually entering quantities</p>
+                        </div>
+                    </div>
+
+                    <h3 class="subtle-header">Order Guide - Sorting</h3>
+                    <div class="row">
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/order-guide-2.png" />
+                            <p>The user can elect to sort the order guide by tapping the 3 dot icon in the top right.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/order-guide-3.png" />
+                            <p>When the options are open, they can either sort or edit the order guide.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/order-guide-4.png" />
+                            <p>The sort menu uses the existing Android popup design.</p>
+                        </div>
+                    </div>
+
+                    <h3 class="subtle-header">Order Guide - Other States</h3>
+                    <div class="row">
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Order Guide Sorted by Category.png" />
+                            <p>When the user sorts by category, there should be headers that appear above sets of items.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Edit Order Guide - Single.png" />
+                            <p>Edit Order Guide - Version A: Long product names are abbreviated by ellipses.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Edit Order Guide - Double.png" />
+                            <p>Edit Order Guide - Version B: Long product names are shown as their full text.</p>
+                        </div>
+                    </div>
+
+                    <h3 class="subtle-header">Product Page - Various States</h3>
+                     <div class="row">
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Product - One Unit.png" />
+                            <p>Product page with one unit type.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Product - Two Units.png" />
+                            <p>Product page with two unit types.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Product - Three Units.png" />
+                            <p>Product page with three unit types.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Product - Three Units - Two Prices.png" />
+                            <p>How tiered pricing could be presented to the user.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Product - Long Product Name.png" />
+                            <p>How text wraps when dealing with a long product name.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Product - Long Product Name - 2 Units.png" />
+                            <p>How the unit selector appears even with a long product name.</p>
+                        </div>
+                    </div>
+
+                    <h3 class="subtle-header">Product Page - Keyboard Quantity</h3>
+                     <div class="row">
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Product - Tap Quantity.png" />
+                            <p>When a user taps on the quantity, the numeric keyboard should show up.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Product - Show Keyboard.png" />
+                            <p>Product page with expanded numeric keyboard.</p>
+                        </div>
+                    </div>
+
+                    <h3 class="subtle-header">Product Page - Image Viewing</h3>
+                    <p>Note: This currently has the deprecated version of the quantity/subtotal UI.</p>
+                     <div class="row">
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Product Page - Pre-Zoomed Photo.png" />
+                            <p>When the user taps on a photo, it will launch the zoomed in version of the photo.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Product Page - Zoomed Photo.png" />
+                            <p>Zoomed in version of product photo.</p>
+                        </div>
+                    </div>
+
+                    <h3 class="subtle-header">Product Page - Add/Remove from Order Guide</h3>
+                     <div class="row">
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Product Page - Add to Order Guide.png" />
+                            <p>The user can tap on the top right icon to manually add a product to the order guide.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Product Page - Remove from Order Guide.png" />
+                            <p>The user can tap on the top right icon to manually remove a product to the order guide.</p>
+                        </div>
+                    </div>
+
+                    <h3 class="subtle-header">Search</h3>
+                     <div class="row">
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Search Button.png" />
+                            <p>The user can access the global/order guide search from the top navigation.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Search Input with Recent Searches.png" />
+                            <p>A input box will appear, with a back button (which closes the search and goes back to the Order Guide). Recent searches can show up below.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Search Results with Keyboard Open.png" />
+                            <p>As the user types, results will show up in two tiers: from the order guide and from the rest of the catalogue.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Search Results with Keyboard Closed.png" />
+                            <p>Search bar when the keyboard is closed.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Search with No Results.png" />
+                            <p>Communication when there are 0 results available.</p>
+                        </div>
+                    </div>
+
+                    <h3 class="subtle-header">Utility Views</h3>
+                     <div class="row">
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Edit Profile.png" />
+                            <p>Editing profile information.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Restaurant Info.png" />
+                            <p>Editing restaurant information.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
