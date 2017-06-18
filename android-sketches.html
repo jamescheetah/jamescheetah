@@ -17,13 +17,18 @@
                         <li>Order Guide - Sorting</li>
                         <li>Order Guide - States</li>
                         <li>Cart</li>
-                        <li>Cart - Delivery Date Options</li>
+                        <li>Checkout - Review</li>
+                        <li>Checkout - Utilities - Delivery Dates</li>
+                        <li>Checkout - Utilities - Misc.</li>
+                        <li>Checkout - Confirmation</li>
                         <li>Product Page - Various States</li>
                         <li>Product Page - Keyboard Quantity</li>
                         <li>Product Page - Image Viewing</li>
                         <li>Product Page - Add/Remove from Order Guide</li>
                         <li>Payment Method</li>
                         <li>Search</li>
+                        <li>My Staff</li>
+                        <li>Utility Views</li>
                     </ul>
                 </div>
                 <div class="col-2">
@@ -33,7 +38,6 @@
                     <h3 class="subtle-header">Still to do...</h3>
                     <ul class="mb-5">
                         <li>Utility Pages (Settings, Pricing...)</li>
-                        <li>Confirmation</li>
                         <li>Expanded Navigation</li>
                         <li>Browse</li>
                     </ul>
@@ -78,23 +82,11 @@
                         </div>
                         <div class="android-sketch">
                             <img src="images/android-sketches/Order Guide Variations - Added - 1.png" />
-                            <p>When a product has quantities added to cart, the box on the right will show the quantity and subtotal</p>
+                            <p>When a product has quantities added to cart, the image should have a small icon to the top left.</p>
                         </div>
                         <div class="android-sketch">
                             <img src="images/android-sketches/Order Guide Variations - Added - 2.png" />
-                            <p>Even if there are multiple product sizes, when a user adds products to their cart only the selected size should show up on the left side.</p>
-                        </div>
-                    </div>
-
-                    <h3 class="subtle-header">Order Guide - Variations of List Items</h3>
-                    <div class="row">
-                        <div class="android-sketch">
-                            <img src="images/android-sketches/Line Item with Cart Icon Variation - 1.png" />
-                            <p>Version with green cart icon and bolded gray prices.</p>
-                        </div>
-                        <div class="android-sketch">
-                            <img src="images/android-sketches/Line Item with Cart Icon Variation - 2.png" />
-                            <p>Version with yellow cart icon and bolded green prices.</p>
+                            <p>Even if there are multiple product sizes, the image should have a small icon to the top left. All the unit sizes should be shown.</p>
                         </div>
                     </div>
 
@@ -136,6 +128,10 @@
                             <img src="images/android-sketches/Popup - Add to Cart - Keyboard Open.png" />
                             <p>Numeric keyboard used for manually entering quantities</p>
                         </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Popup - Added Confirmation.png" />
+                            <p>After the item has been added to the cart from the popup (or the product page), a confirmation snackbar should appear.</p>
+                        </div>
                     </div>
 
                     <h3 class="subtle-header">Order Guide - Sorting</h3>
@@ -170,15 +166,47 @@
                         </div>
                     </div>
 
-                    <h3 class="subtle-header">Cart and Review Checkout</h3>
-                    s<div class="row">
+                    <h3 class="subtle-header">Cart</h3>
+                    <div class="row">
                         <div class="android-sketch">
                             <img src="images/android-sketches/Cart.png" />
                             <p>The Cart view should have a temporary message describing the replacement policy, as well as has provide the ability for users to indicate to us whether or not they want an item to be replaced.</p>
                         </div>
+                    </div>
+
+                    <h3 class="subtle-header">Review Checkout</h3>
+                    <div class="row">
                         <div class="android-sketch">
-                            <img src="images/android-sketches/Review Checkout.png" />
-                            <p>The checkout view can be accessed by tapping on the "Checkout" button on the Cart view. Several elements are modifiable: The delivery date, order note, selected payment method, delivery note, and promo code state.</p>
+                            <img src="images/android-sketches/Checkout - Typical.png" />
+                            <p>The checkout view can be accessed by tapping on the "Checkout" button on the Cart view. Several elements are modifiable: The delivery date, order note, delivery note, and promo code state. Elements that are not modifiable: Payment method and Delivery Address.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Checkout - Added Promo Code.png" />
+                            <p>Added Promo Code Option 1: If a customer adds a promo code that reduces the cost of the order, we can show how much they are saving as a separate line item. Note: I changed the link text to "Change Promo Code" to emphasize to the user that their promo code was added but perhaps we could use an alert instead.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Checkout - Added Promo Code 2.png" />
+                            <p>Added Promo Code Option 2: If the promo codes we're using just reduce the cost of shipping, we can instead just change the cost of shipping to $0.00 while continuing the practice of altering the promo code link text.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Checkout - Same-Day Delivery.png" />
+                            <p>For same-day deliveries, we could just show one line that has the full delivery cost.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Checkout - Same-Day Delivery.png" />
+                            <p>For same-day deliveries, we could just show one line that has the full delivery cost.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Checkout - Credit Card.png" />
+                            <p>Credit Card Option 1: If the credit card processing fee is applied to the entire sum that includes the delivery fee, then the credit card processing fee can be separated by lines and shown right before the final total.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Checkout - Credit Card - Not Including Delivery.png" />
+                            <p>Credit Card Option 2: If the credit card processing fee is only applied to the subtotal, then it can be shown right after the subtotal and right before the delivery fee.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Checkout - Monthly Subscription.png" />
+                            <p>Monthly Subscription: For monthly subscriptions, the fee can be shown in the table above the delivery fee, which would be set to $0.00 (to emphasize that their subscription is paying for free deliveries). We can also show the month if it's helpful to emphasize that it only happens once a month.</p>
                         </div>
                     </div>
 
@@ -202,7 +230,7 @@
                         </div>
                     </div>
 
-                    <h3 class="subtle-header">Checkout Utils - Misc.</h3>
+                    <h3 class="subtle-header">Checkout Utilities - Misc.</h3>
                     <div class="row">
                         <div class="android-sketch">
                             <img src="images/android-sketches/Add Promo Code.png" />
@@ -221,6 +249,19 @@
                             <p>Simple pop-up that allows the user to switch between payment methods.</p>
                         </div>
                     </div>
+
+                    <h3 class="subtle-header">Checkout - Confirmation</h3>
+                    <div class="row">
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Checkout - Confirmation.png" />
+                            <p>When an order has been successfully submitted, the user can view this confirmation screen with relevant information about their order. If they tap the start button, they will be brought to the order guide. If they tap the white button, they will be brought to a message view (next screen).</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Checkout - Confirmation Feedback.png" />
+                            <p>Hypothetically, we may want to enable easy way for people to leave feedback on the ordering experience by having a message field accessible from the confirmation page. Once it has been sent, it will take them back to the confirmation screen.</p>
+                        </div>
+                    </div>
+
 
 
                     <h3 class="subtle-header">Product Page - Various States</h3>
@@ -321,6 +362,34 @@
                         <div class="android-sketch">
                             <img src="images/android-sketches/Search with No Results.png" />
                             <p>Communication when there are 0 results available.</p>
+                        </div>
+                    </div>
+
+                    <h3 class="subtle-header">My Staff</h3>
+                     <div class="row">
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/My Staff - No Results.png" />
+                            <p>My Staff is a section where the owner can invite people to join the app and where they can manage people on the team. When there are 0 members, a temporary message appears, with the options to invite people either by text or e-mail.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/My Staff - Text Invite.png" />
+                            <p>If inviting by text, the To field is automatically highlighted and a pre-defined text message is shown. Keep in mind that this design doesn't have to look exactly this way but can re-use the existing model of how text messaging would get prompted in an Android app. The sketch is merely used to denote the functions that should appear on the screen. Additional functions that would be helpful is maybe the ability to open the address book. As the user types a phone number or name of a person in their contact list, a list of auto-suggested contacts should appear, not unlike how it works for text messaging apps.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/My Staff - E-mail Invite.png" />
+                            <p>In the case of e-mail, there might be more fields (e.g. subject, which mailbox to use), but the idea should be the same: re-using system elements alongside a pre-written message to allow for easy creation of an e-mail that will get sent out to someone in the users e-mail contact list.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/My Staff - One Result.png" />
+                            <p>If is an invited user has installed the app, they will appear on the list of My Staff. Invited users who haven't installed the app yet will also appear on the list, except with explanatory text describing the fact that they aren't part of the team just yet. The user can either tap on the X to remove the user from the team, or tap the circular icon to resend an invite.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/My Staff - Remove Result.png" />
+                            <p>Prompt when an admin attempts to remove a member from the staff list.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/My Staff - Resend Invite.png" />
+                            <p>Prompt when an admin attempts to resend an invite to already invited person of their admins team.</p>
                         </div>
                     </div>
 
