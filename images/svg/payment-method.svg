@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Checkout---Various-Fees" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Checkout---Monthly-Subscription" transform="translate(-32.000000, -493.000000)" stroke="#95A5A6" stroke-width="2">
+            <g id="Page-1" transform="translate(33.000000, 494.000000)">
+                <path d="M20,10.0002174 C20,15.5232609 15.5230435,20.0002174 10,20.0002174 C4.47695652,20.0002174 0,15.5232609 0,10.0002174 C0,4.47717391 4.47695652,0.000217391304 10,0.000217391304 C15.5230435,0.000217391304 20,4.47717391 20,10.0002174 Z" id="Stroke-1"></path>
+                <path d="M12.826087,5.18069565 C12.1304348,4.77330435 11.2421739,4.34808696 10.2173913,4.34808696 C8.77521739,4.34808696 7.42434783,5.58156522 7.42434783,6.78634783 C7.42434783,8.062 8.34086957,9.07417391 10.2173913,9.8893913 C12.3556522,10.8106957 13.0434783,11.6072174 13.0434783,12.9928696 C13.0434783,14.7106957 11.3043478,15.6528696 9.7826087,15.6528696 C8.39217391,15.6528696 7.61695652,15.1554783 6.95652174,14.7663478" id="Stroke-3"></path>
+                <path d="M10.8695652,2.39152174 L9.13043478,17.608913" id="Stroke-5"></path>
+            </g>
+        </g>
+    </g>
+</svg>

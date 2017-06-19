@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="85px" height="85px" viewBox="0 0 85 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="86px" height="86px" viewBox="0 0 86 86" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
-    <title>increment</title>
+    <title>Page 1</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
-        <g id="increment" stroke="#FFFFFF" stroke-width="4">
-            <g id="Page-1" transform="translate(3.000000, 3.000000)">
-                <path d="M0,39 L79.2,39" id="Stroke-1"></path>
-                <path d="M39,79.2 L39,0" id="Stroke-3"></path>
+    <g id="Popup---Quick---with-Keyboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="Popup---Add-to-Cart---Keyboard-Open" transform="translate(-477.000000, -478.000000)" stroke="#2ECC71" stroke-width="6">
+            <g id="Group-4" transform="translate(64.000000, 59.000000)">
+                <g id="Group-3" transform="translate(0.000000, 340.000000)">
+                    <g id="Group-2" transform="translate(32.000000, 78.000000)">
+                        <g id="Page-1" transform="translate(384.000000, 4.000000)">
+                            <path d="M0,39 L79.2,39" id="Stroke-1"></path>
+                            <path d="M39,79.2 L39,0" id="Stroke-3"></path>
+                        </g>
+                    </g>
+                </g>
             </g>
         </g>
     </g>
