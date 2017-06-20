@@ -4,6 +4,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="style.css">
+        <link rel="icon"  type="image/png" href="favicon.png">
     </head>
     <body class="subtle-background">
         <div class="container-fluid">
@@ -26,6 +27,8 @@
                         <li>Product Page - Image Viewing</li>
                         <li>Product Page - Add/Remove from Order Guide</li>
                         <li>Payment Method</li>
+                        <li>Import Order History - Restaurant Depot</li>
+                        <li>Import Order History - Non-Restaurant Depot</li>
                         <li>Search</li>
                         <li>My Staff</li>
                         <li>Utility Views</li>
@@ -37,7 +40,6 @@
 
                     <h3 class="subtle-header">Still to do...</h3>
                     <ul class="mb-5">
-                        <li>Import Order Guide</li>
                         <li>Utility Pages (Settings, Pricing...)</li>
                         <li>Expanded Navigation</li>
                         <li>Browse</li>
@@ -351,6 +353,54 @@
                         <div class="android-sketch">
                             <img src="images/android-sketches/Add Credit Card.png" />
                             <p>View for adding credit card. Note: There is no sketch for adding bank account as it uses Plaid, a 3rd party service which has their own flow.</p>
+                        </div>
+                    </div>
+
+                    <h3 class="subtle-header">Import Order History - Restaurant Depot Account</h3>
+                     <div class="row">
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Import Order Guide - 0 Results.png" />
+                            <p>If there are 0 items in the order guide (or few items) then a message will appear prompting the user to import their order history to auto-populate their order guide.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Import Order Guide - Selection Screen.png" />
+                            <p>After tapping the Create My Guide in the previous screen, a window will appear with two choices: the ability to import their Restaurant Depot order history or their order histroy from a non-Restaurant Depot provider.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Import Order Guide - Account Number Placeholder.png" />
+                            <p>If the user elects to import their RD order history, they'll be shown a screen where they can enter their RD account number. This is what it looks like with no parameters entered. Also note that they keyboard should be the numeric version.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Import Order Guide - Account Number Entry Filled.png" />
+                            <p>What it looks like when the user enters a sample account number.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Import Order Guide - Account Number Popup.png" />
+                            <p>If the user is having trouble entering their account number, they can tap on Having Trouble (previous screen) which will show a pop-up asking them if they'd like for one of our representatives to reach out to them. Tapping yes should send an automated message to one of our customer service reps.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Import Order Guide - Account Number Popup Confirmation.png" />
+                            <p>If they tapped yes on the previous screen, a confirmation window will appear.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Import Order Guide - Successfully Import.png" />
+                            <p>Assuming that the account number was entered correctly and we were able to retrieve their order history, a counter will appear showing how many items were found. Tapping Finish should bring them back to their newly created Order Guide.</p>
+                        </div>
+                    </div>
+
+                    <h3 class="subtle-header">Import Order History - Non-Restaurant Depot Account</h3>
+                     <div class="row">
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Import Order Guide.png" />
+                            <p>In this scenario, we'll assume the user wants to import their order guide but wants to import a non-Restaurant Depot order history. In that case, they would select the second option.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Import Order Guide - Send Invoices.png" />
+                            <p>From this view, they are instructed to take a photo of their invoices and send them to us. Tapping either the camera or the library should open the Android OS' version of the camera/library, and selecting a photo should automatically replace the sample image and show a loading animation, automatically uploading the photograph to our server.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Import Order Guide - Successfully Sent Invoice.png" />
+                            <p>After a single image has been successfully sent to us, the user can tap on Send Another Invoice to go back to the previous screen to continue sending more invoices, or tap on Close to go back to the part of the app they were before.</p>
                         </div>
                     </div>
 
