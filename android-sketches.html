@@ -37,6 +37,7 @@
 
                     <h3 class="subtle-header">Still to do...</h3>
                     <ul class="mb-5">
+                        <li>Import Order Guide</li>
                         <li>Utility Pages (Settings, Pricing...)</li>
                         <li>Expanded Navigation</li>
                         <li>Browse</li>
@@ -205,10 +206,6 @@
                             <p>For same-day deliveries, we could just show one line that has the full delivery cost.</p>
                         </div>
                         <div class="android-sketch">
-                            <img src="images/android-sketches/Checkout - Same-Day Delivery.png" />
-                            <p>For same-day deliveries, we could just show one line that has the full delivery cost.</p>
-                        </div>
-                        <div class="android-sketch">
                             <img src="images/android-sketches/Checkout - Credit Card.png" />
                             <p>Credit Card Option 1: If the credit card processing fee is applied to the entire sum that includes the delivery fee, then the credit card processing fee can be separated by lines and shown right before the final total.</p>
                         </div>
@@ -222,23 +219,19 @@
                         </div>
                     </div>
 
-                    <h3 class="subtle-header">Checkout Utils - Delivery Dates</h3>
+                    <h3 class="subtle-header">Checkout Utilities - Delivery Dates</h3>
                     <div class="row">
                         <div class="android-sketch">
-                            <img src="images/android-sketches/Delivery - Shortened - One Time Frame.png" />
-                            <p>Delivery Date Option A - 1: In this version, we only allow the user to select day but not a time frame. One suggestion is to only show Same-Day and Next Day as they are the most popular, which helps to create a simpler decision. The user can tap on show more days to view additional selectable days.</p>
-                        </div>
-                        <div class="android-sketch">
                             <img src="images/android-sketches/Delivery - Expanded - One Time Frame.png" />
-                            <p>Delivery Date Option A - 2: After the user taps on the Show More days button, a list of additional days are provided. Note that the additional days don't have a special title as was the case in the Same Day or Next Day options.</p>
+                            <p>We can show the two fastest deliveries at the top (with slightly bigger font size), and have the list of remaining days below. Days which have 0 spots left are grayed out.</p>
                         </div>
                         <div class="android-sketch">
-                            <img src="images/android-sketches/Delivery - Multiple Choices.png" />
-                            <p>Delivery Date Option B - 1:</p> In this version, we allow the user to select both the date and time frame. Some time frames might not be available.</p>
+                            <img src="images/android-sketches/Delivery - Expanded - Reserved Window 1.png" />
+                            <p>Reserved Window - 1: If there's really only one reserved window per week, we can show it at the very top as it's own selection. And instead of showing how many spots left below, we show the day of the week.</p>
                         </div>
                         <div class="android-sketch">
-                            <img src="images/android-sketches/Delivery - Multiple Choices - Special Note.png" />
-                            <p>Delivery Date Option B - 2:</p> If the user select today, a message should show up noting to the user that there will be an additional surcharge.
+                            <img src="images/android-sketches/Delivery - Expanded - Reserved Window 2.png" />
+                            <p>Reserved Window - 2: Alternatively, we can replace specific days/windows with reserved windows (assuming reserved windows are both specific days and hours), with a slightly different visual treatment that replaces the spots left. This makes sense especially if there's no reason to show duplicate days of the week with varying delivery windows.</p>
                         </div>
                     </div>
 
@@ -266,11 +259,19 @@
                     <div class="row">
                         <div class="android-sketch">
                             <img src="images/android-sketches/Checkout - Confirmation.png" />
-                            <p>When an order has been successfully submitted, the user can view this confirmation screen with relevant information about their order. If they tap the start button, they will be brought to the order guide. If they tap the white button, they will be brought to a message view (next screen).</p>
+                            <p>When an order has been successfully submitted, the user can view this confirmation screen with relevant information about their order. Tapping on close will bring them back to the cart view.</p>
                         </div>
                         <div class="android-sketch">
-                            <img src="images/android-sketches/Checkout - Confirmation Feedback.png" />
-                            <p>Hypothetically, we may want to enable easy way for people to leave feedback on the ordering experience by having a message field accessible from the confirmation page. Once it has been sent, it will take them back to the confirmation screen.</p>
+                            <img src="images/android-sketches/Checkout - Confirmation - Cart.png" />
+                            <p>When they return to the cart, a temporary banner appears in the cart describing that they can modify this order until a specific time. This should not appear anywhere else in the app.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Checkout - Confirmation - Review.png" />
+                            <p>The review order screen is similar the Checkout screen, except instead of a checkout button, there is a cancel order button. The user can tap on the notes or date to modify those parameters. If they tap on cancel, they will be prompted with a popup that will ask them if they want to continue cancelling the order.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Checkout - Confirmation - Popup.png" />
+                            <p>Cancel order prompt</p>
                         </div>
                     </div>
 
