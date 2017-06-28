@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="41px" viewBox="0 0 34 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols---App-Bar---Generalized" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="SystemUI/StatusBar/Product-Page---Not-Part-of-Order-Guide" transform="translate(-651.000000, -83.000000)" stroke="#95A5A6" stroke-width="4">
+            <g id="Page-1" transform="translate(653.000000, 85.000000)">
+                <polygon id="Stroke-1" points="0 37 30 37 30 6.56521739 0 6.56521739"></polygon>
+                <path d="M11.25,6.56521739 L11.25,4.47826087 C11.25,2.17321739 13.1188696,0.304347826 15.423913,0.304347826 C17.7289565,0.304347826 19.5978261,2.17321739 19.5978261,4.47826087 L19.5978261,6.56521739" id="Stroke-3"></path>
+                <path d="M22.25,6.56521739 L22.25,10.9320775 C22.25,12.1486225 21.5492222,13.1352176 20.6851111,13.1352176 L9.81488889,13.1352176 C8.95077778,13.1352176 8.25,12.1486225 8.25,10.9320775 L8.25,6.56521739" id="Stroke-4"></path>
+            </g>
+        </g>
+    </g>
+</svg>

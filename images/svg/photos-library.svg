@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="40px" viewBox="0 0 50 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>photos-library</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Import-Order-History---Pictures" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Import-Order-Guide---Send-Invoices" transform="translate(-446.000000, -1087.000000)" stroke-width="4" stroke="#FFFFFF">
+            <g id="Group-5" transform="translate(448.000000, 1088.000000)">
+                <g id="photos-library" transform="translate(0.000000, 1.000000)">
+                    <polygon id="Stroke-1" stroke-linejoin="round" points="0 35.2785708 45.0781739 35.2785708 45.0781739 0 0 0"></polygon>
+                    <path d="M37.2874895,10.5893357 C37.2874895,12.483599 35.7518917,14.0191968 33.8576284,14.0191968 C31.9633651,14.0191968 30.4277674,12.483599 30.4277674,10.5893357 C30.4277674,8.69507246 31.9633651,7.15947467 33.8576284,7.15947467 C35.7518917,7.15947467 37.2874895,8.69507246 37.2874895,10.5893357 Z" id="Stroke-4"></path>
+                    <polyline id="Stroke-3" stroke-linejoin="round" points="7.15947467 34.9000756 18.7582848 14.3189493 26.083488 27.4582571 30.6785219 21.1806314 38.5182043 34.9000756"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

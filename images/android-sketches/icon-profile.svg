@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="75px" height="75px" viewBox="0 0 75 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Navigation" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Navigation-Drawer" transform="translate(-25.000000, -44.000000)">
+            <g id="Group" transform="translate(25.000000, 44.000000)">
+                <circle id="Oval" fill="#FFBE00" cx="37.5" cy="37.5" r="37.5"></circle>
+                <g id="Page-1" transform="translate(24.000000, 22.000000)" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M19.9823704,5.71601739 C20.1262593,2.5081913 17.3813492,-0.000243478261 14.1723208,-0.000243478261 C10.9639047,-0.000243478261 8.17919551,2.52949565 8.36288345,5.71601739 C8.39962104,6.35636522 9.00824043,9.52706087 9.00824043,9.52706087 C9.5103208,12.2795826 11.3202593,14.6084522 14.1723208,14.6084522 C17.0249946,14.6084522 18.7988078,12.3142783 19.3370135,9.52706087 C19.3370135,9.52706087 19.9535927,6.35697391 19.9823704,5.71601739 Z" id="Stroke-1"></path>
+                    <path d="M28.2536548,27.9993913 L0.0881702128,27.9993913 L0.764754137,23.0111304 C1.04824586,21.3804348 2.53428132,20.3584348 4.16114421,20.0206087 L14.1709125,18.2602609 L24.1763948,20.0096522 C25.8301986,20.3815652 27.2935792,21.3585217 27.5770709,23.0026087 L28.2536548,27.9993913 Z" id="Stroke-3"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

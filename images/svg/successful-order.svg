@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="204px" height="204px" viewBox="0 0 204 204" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Confirmation" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Checkout---Confirmation" transform="translate(-258.000000, -134.000000)">
+            <g id="Group-2" transform="translate(260.000000, 136.000000)">
+                <circle id="Oval" stroke="#FFBE00" stroke-width="3" fill="#FFFFFF" cx="100" cy="100" r="100"></circle>
+                <g id="Group" transform="translate(36.472870, 66.769079)">
+                    <g id="Page-1" transform="translate(29.846744, 0.000000)" stroke="#FFBE00" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M27.36565,57.041646 C27.36565,62.4693126 22.997423,66.8672554 17.6064298,66.8672554 C12.2154366,66.8672554 7.84720968,62.4693126 7.84720968,57.041646 C7.84720968,51.6139793 12.2154366,47.2160366 17.6064298,47.2160366 C22.997423,47.2160366 27.36565,51.6139793 27.36565,57.041646 Z" id="Stroke-1"></path>
+                        <polyline id="Stroke-3" points="27.1712463 55.0765241 58.5959352 55.0765241 58.5959352 27.5648178 58.5959352 0.0531114022 0.0406142893 0.0531114022 0.0406142893 55.0765241 8.04317482 55.0765241"></polyline>
+                        <path d="M62.6932462,53.4188893 L58.5943738,53.4188893" id="Stroke-5"></path>
+                        <polyline id="Stroke-7" points="58.5951545 31.4950615 89.824659 31.4950615 89.824659 55.0765241 81.8220985 55.0765241"></polyline>
+                        <polyline id="Stroke-9" points="89.824659 31.4950615 78.1135948 11.8438427 58.5951545 11.8438427"></polyline>
+                        <path d="M82.0172829,57.041646 C82.0172829,62.4693126 77.6490559,66.8672554 72.2580627,66.8672554 C66.8670695,66.8672554 62.4988426,62.4693126 62.4988426,57.041646 C62.4988426,51.6139793 66.8670695,47.2160366 72.2580627,47.2160366 C77.6490559,47.2160366 82.0172829,51.6139793 82.0172829,57.041646 Z" id="Stroke-11"></path>
+                        <path d="M0.0398335517,38.1563495 L58.5951545,38.1563495" id="Stroke-13"></path>
+                    </g>
+                    <rect id="Rectangle-2" fill="#FFBE00" x="30.3130999" y="0.932710765" width="57.8280674" height="38.2411414"></rect>
+                    <g id="Page-1" transform="translate(0.000000, 29.380389)" stroke="#FFBE00" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M0,14.9233722 L22.7847916,14.9233722" id="Stroke-1"></path>
+                        <path d="M7.46168612,7.46168612 L22.6515472,7.46168612" id="Stroke-4"></path>
+                        <path d="M7.46168612,0 L22.6515472,0" id="Stroke-6"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

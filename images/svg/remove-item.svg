@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="46px" viewBox="0 0 46 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>remove-item</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols---Line-Item---Modify" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="LineItem---2l-1p-edit_line_item_on_one_line" transform="translate(-32.000000, -29.000000)" stroke="#E74C3C" stroke-width="4">
+            <g id="remove-item" transform="translate(34.000000, 31.000000)">
+                <path d="M42,21 C42,32.5983913 32.5983913,42 21,42 C9.4016087,42 0,32.5983913 0,21 C0,9.4016087 9.4016087,0 21,0 C32.5983913,0 42,9.4016087 42,21 Z" id="Stroke-1"></path>
+                <path d="M10.0434783,21 L31.9565217,21" id="Stroke-3"></path>
+            </g>
+        </g>
+    </g>
+</svg>

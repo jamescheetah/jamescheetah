@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="32px" viewBox="0 0 42 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>drag-item</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols---Line-Item---Modify" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="LineItem---1l-1p-edit_line_item" transform="translate(-646.000000, -36.000000)" stroke="#95A5A6" stroke-width="4">
+            <g id="drag-item" transform="translate(648.000000, 38.000000)">
+                <path d="M0,0 L38,0" id="Stroke-1"></path>
+                <path d="M0,14 L38,14" id="Stroke-3"></path>
+                <path d="M0,28 L38,28" id="Stroke-5"></path>
+            </g>
+        </g>
+    </g>
+</svg>

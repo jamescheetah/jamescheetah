@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="51px" height="40px" viewBox="0 0 51 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>camera</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Import-Order-History---Pictures" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Import-Order-Guide---Send-Invoices" transform="translate(-90.000000, -1087.000000)">
+            <g id="Group" transform="translate(92.000000, 1088.000000)">
+                <g id="camera" transform="translate(0.000000, 1.000000)">
+                    <path d="M34.0941,6 L29.6001,0 L16.1001,0 L12.0941,6 L0.1001,6 L0.1001,28 C0.1001,32.418 3.6811,36 8.1001,36 L38.1001,36 C42.5181,36 46.1001,32.418 46.1001,28 L46.1001,6 L34.0941,6 Z" id="Stroke-1" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round"></path>
+                    <path d="M0.9,1.8 L7.10099988,1.8" id="Stroke-3" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"></path>
+                    <path d="M32.1,21 C32.1,25.971 28.071,30 23.1,30 C18.129,30 14.1,25.971 14.1,21 C14.1,16.029 18.129,12 23.1,12 C28.071,12 32.1,16.029 32.1,21 Z" id="Stroke-5" stroke="#FFFFFF" stroke-width="4"></path>
+                    <path d="M42.1,12 C42.1,13.104 41.205,14 40.1,14 C38.996,14 38.1,13.104 38.1,12 C38.1,10.896 38.996,10 40.1,10 C41.205,10 42.1,10.896 42.1,12" id="Fill-7"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
