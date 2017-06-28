@@ -14,6 +14,7 @@
                     <ul class="list-unstyled navigation">
                         <li>Pre-Login State</li>
                         <li>Login</li>
+                        <li>Zip Code</li>
                         <li>Order Guide - Variations of List Items</li>
                         <li>Order Guide - Quick Add</li>
                         <li>Order Guide - Sorting</li>
@@ -23,6 +24,7 @@
                         <li>Checkout - Utilities - Delivery Dates</li>
                         <li>Checkout - Utilities - Misc.</li>
                         <li>Checkout - Confirmation</li>
+                        <li>Product Page - Larger Product Photo Iteration</li>
                         <li>Product Page - Various States</li>
                         <li>Product Page - Keyboard Quantity</li>
                         <li>Product Page - Image Viewing</li>
@@ -32,6 +34,7 @@
                         <li>Import Order History - Non-Restaurant Depot</li>
                         <li>Search</li>
                         <li>My Staff</li>
+                        <li>My Orders</li>
                         <li>Browse</li>
                         <li>Utility Views</li>
                     </ul>
@@ -81,6 +84,26 @@
                         <div class="android-sketch">
                             <img src="images/android-sketches/Login with Temporary Password.png" />
                             <p>System popup when the user requests a temporary password.</p>
+                        </div>
+                    </div>
+
+                    <h3 class="subtle-header">Sign-Up - Zipcode Failures</h3>
+                    <div class="row">
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Zipcode - 1.png" />
+                            <p>Example zip code form during the sign-up process.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Zipcode - 2.png" />
+                            <p>If the zip code isn't valid, an error message shows up. It could also pre-validate and prevent the user from tapping next if the zipcode isn't valid.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Zipcode - Sad Message.png" />
+                            <p>If the user enters a zipcode that isn't within our delivery radius, we show a view that explains that we cannot deliver to them. They can tap contact us to send us an e-mail asking us to deliver to their area, or tap on browse catalog to continue to the Cheetah app where they can browse products but cannot add items to their cart nor checkout.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Zipcode - Browse Messaging.png" />
+                            <p>Example of the a browse category with alert messaging telling the user that they need to be in a valid delivery radius. Tapping the alert could take them to the edit business address view.</p>
                         </div>
                     </div>
 
@@ -317,7 +340,17 @@
                         </div>
                     </div>
 
-
+                    <h3 class="subtle-header">Product Page - Larger Product Photo Iteration</h3>
+                     <div class="row">
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Product - Two Units - Enlarged Image.png" />
+                            <p>With unit selector.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Product Page - One Unit Enlarged Image.png" />
+                            <p>With no unit selector.</p>
+                        </div>
+                    </div>
 
                     <h3 class="subtle-header">Product Page - Various States</h3>
                      <div class="row">
@@ -493,6 +526,26 @@
                         <div class="android-sketch">
                             <img src="images/android-sketches/My Staff - Resend Invite.png" />
                             <p>Prompt when an admin attempts to resend an invite to already invited person of their admins team.</p>
+                        </div>
+                    </div>
+
+                    <h3 class="subtle-header">My Orders</h3>
+                    <div class="row">
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Past Orders Index - A.png" />
+                            <p>Version A - Prioritizes the order number.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Past Orders Index - B.png" />
+                            <p>Version B - Prioritizes the delivery date and order total.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Past Orders Show.png" />
+                            <p>When a user taps on an order from the My Orders index view, they'll be taken to a read-only view which has a list of all the items they ordered from a previous order. They can tap on the Add Products to Cart button to add all the products and quantities from this order to their cart.</p>
+                        </div>
+                        <div class="android-sketch">
+                            <img src="images/android-sketches/Past Orders - Prompt.png" />
+                            <p>If there are existing products within the cart, the user will be prompted as to whether or not they want to replace their current cart with this past order.</p>
                         </div>
                     </div>
 
